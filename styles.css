@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://landing.zytheme.com/siena/assets/images/background/bg-1.png);
+    background: position left top;
+    font-family: "Lato";
+}
+.container{
+    /*border: 1px solid red;*/
+    padding: 10px 50px;
+    
+}
+header{
+    border: 1px solid red;
+    
+    display: flex;
+    
+}
+.logo{
+    /*border: 1px solid blue; */
+    
+    align-items: center;
+    display: flex;
+}
+
+nav{
+    /*border: 1px solid green;*/
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+nav ul{
+    
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    /*border: 3px solid palevioletred;*/
+    margin: 0 8px;
+    display: flex;
+}
+nav a{
+    color:darkgrey;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+nav a:hover{
+    color:blue;
+}
+h1{
+    color: slateblue;
+    font-size: 3em;
+    font-weight: 700;
+    
+}
+p{
+    color:darkgrey;
+    font-size: 1.2em;
+}
+
+p span{
+    
+    font-size: 0.72em;
+    
+}
+.center{
+    text-align: center;
+}
+
+.field-form label{
+    color:slateblue;
+    font-size: 0.95em;
+    display: block;
+    margin: 5px;
+}
+.field-form input{
+    background: #f7f6ff;
+    color: #222;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 0.95em;
+    padding: 6px 6px 6px 12px;
+    width: 100%;
+    outline: none;
+    
+}
+h4{
+    color:slateblue;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 15px 0;
+}
+.btn-primary{
+    width: 100%;
+    background-color:slateblue;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:darkslateblue;
+}
+#slide-home{
+    
+    margin: 80px 0;
+    display: flex;
+}
+#slide-home .content{
+    flex: 60;
+}
+#box-trial{
+    background: #fff;
+    padding: 10px 40px;
+    flex: 40;
+    -webkit-box-shadow: 4px 6px 18px 0px rgba(107,107,107,1);
+    -moz-box-shadow: 4px 6px 18px 0px rgba(107,107,107,1);
+    box-shadow: 4px 6px 18px 0px rgba(107,107,107,1);
+    
+}
+h3{
+    text-align: center;
+    color: slateblue;
+    font-size: 2em;
+    font-weight: 400;
+    
+}
+h5{
+    color: slateblue;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+/*#slide-feature{
+    display: flex;
+}*/
+
+.iconos{
+    padding: 10px 150px;
+    /*border: 3px solid palevioletred;*/
+    justify-content:space-around;
+    display: flex;
+}
+
+.iconos section img {
+    /*padding: 5px 50px;*/
+    /*border: 3.5px solid green;*/
+    align-items:center;
+    /*margin: 0 8px;*/
+    padding: 0 100px;
+    display: flex ;
+}
+.iconos section div p{
+    /*border: 3.5px solid blue;*/
+    padding: 0px 15px;
+    text-align: center;
+    display: flex;
+    
+    
+ }
+
+ .iconos_2{
+    /*padding: 10px 150px;*/
+    /*border: 3px solid palevioletred;*/
+    justify-content:baseline;
+    display: flex;
+}
+.iconos_2 div{
+    /*padding: 10px 150px;*/
+    /*border: 3px solid blue;*/
+    text-align: justify;       
+}
+.iconos_2 section{
+    /*padding: 10px 150px;*/
+    justify-items:left;
+    text-align:justify;
+        margin: 0px 8px;
+        padding: 30px 170px;
+    display: flex;  
+}
+.iconos_2 section h3{
+    /*padding: 10px 150px;*/
+    text-align:left;    
+}
+.iconos_3{
+    /*padding: 10px 150px;*/
+    /*border: 3px solid palevioletred;*/
+    justify-content:center;
+    display: flex;
+}
+.iconos_3 div{
+    /*padding: 10px 150px;*/
+    /*border: 3px solid blue;*/
+    text-align: justify;       
+}
+.iconos_3 section{
+    /*padding: 10px 150px;*/
+    justify-items:left;
+    text-align:justify;
+        margin: 0px 8px;
+        padding: 30px 170px;
+    display: flex;  
+}
+.iconos_3 section h3{
+    /*padding: 10px 150px;*/
+    text-align:left;    
+}
+.vinieta1{
+    margin: 20px 0px;
+    list-style: url('Iconos/check.png');
+    color:darkgrey;
+    box-sizing: border-box;
+    
+}
